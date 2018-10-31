@@ -1,0 +1,6 @@
+{
+  "test_words.py::TestDates::test_grade": true,
+  "test_words.py::TestDates::test_one": true,
+  "test_words.py::TestDates::test_two": true,
+  "test_words.py::TestDates::test_words": true
+}

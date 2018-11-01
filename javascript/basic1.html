@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        console.log("hello world from inline javascript");
+    </script>
+    <script src="basic1.js"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <button id="demo" onclick="displayDate();">The time is?</button>
+    <button onclick="myfunction();" onmouseover="myfunc2();">Push Me 2</button>
+    <button onmouseover="addtodiv();">Push Me 3</button>
+    <div>
+        # 1<input type="text" name='num1' id="num1">
+        # 2 <input type="text" name="num2" id="num2">
+        <button id="Calculate" onclick="calculate();">Calculate</button>
+        <button id="move" onclick="movecircle();">Move Circle</button>
+
+    </div>
+    <div id="newdiv">
+        <svg height="210" width="500">
+                    <rect width="200" height="200" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                    <polygon points="100,10 40,198 190,78 10,78 160,198"
+                    style="fill:red;stroke:black;stroke-width:5;fill-rule:evenodd;" />
+                    <circle onmouseover="blankdiv();" id='circ' cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+
+        </svg>
+    </div>
+</body>
+</html>

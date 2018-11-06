@@ -1,0 +1,15 @@
+.top, .left , .right, .bottom {
+    min-height: 100;
+    border: 1px solid black;
+}
+
+.left, .right {
+    box-sizing: border-box;
+    display:inline-block;
+    width: 50%;
+}
+
+textarea {
+    width:100%;
+}
+

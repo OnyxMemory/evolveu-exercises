@@ -13,3 +13,10 @@ textarea {
     width:100%;
 }
 
+.newDiv {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px;
+}

@@ -69,6 +69,24 @@ var playModule = function() {
             console.log('Key: ',key,'Value: ', myObject[key])
         }
     }
+
+    var counter = 0;
+    document.getElementById('adddiv').onclick = function () {
+        let div = document.querySelector('.divContainer');
+        let newDiv = document.createElement('div');
+        newDiv.className = 'newDiv';
+        newDiv.innerHTML = counter;
+        div.appendChild(newDiv);
+        counter++;
+
+    }
+
+    document.onclick = function(e) {
+        let div = e.target;
+        if (div.className == 'newDiv'){
+            div.remove();
+        }
+    }
 }();
 
 

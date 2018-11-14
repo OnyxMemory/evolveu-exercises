@@ -1,0 +1,9 @@
+053ac8c04ced0f9befb1da2c75d4b69c
+"use strict";
+
+function sum(a, b) {
+  return a + b;
+}
+
+module.exports = sum;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1bS5qcyJdLCJuYW1lcyI6WyJzdW0iLCJhIiwiYiIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7O0FBQUEsU0FBU0EsR0FBVCxDQUFhQyxDQUFiLEVBQWdCQyxDQUFoQixFQUFtQjtBQUNqQixTQUFPRCxDQUFDLEdBQUdDLENBQVg7QUFDRDs7QUFDREMsTUFBTSxDQUFDQyxPQUFQLEdBQWlCSixHQUFqQiIsInNvdXJjZXNDb250ZW50IjpbImZ1bmN0aW9uIHN1bShhLCBiKSB7XG4gIHJldHVybiBhICsgYjtcbn1cbm1vZHVsZS5leHBvcnRzID0gc3VtOyBcbiJdfQ==

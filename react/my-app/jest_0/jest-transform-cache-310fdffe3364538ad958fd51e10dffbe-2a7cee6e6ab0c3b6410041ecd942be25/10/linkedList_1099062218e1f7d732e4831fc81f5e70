@@ -1,0 +1,29 @@
+927416ca5f6d63adaeedae21e6ddbd39
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+class LinkedList {
+  play(str) {
+    //console.log(str);
+    return str;
+  }
+
+}
+
+class Node {
+  constructor(value, next) {
+    this.value = data;
+    this.next = next;
+  }
+
+}
+
+var _default = {
+  LinkedList
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpbmtlZExpc3QuanMiXSwibmFtZXMiOlsiTGlua2VkTGlzdCIsInBsYXkiLCJzdHIiLCJOb2RlIiwiY29uc3RydWN0b3IiLCJ2YWx1ZSIsIm5leHQiLCJkYXRhIl0sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUMsTUFBTUEsVUFBTixDQUFpQjtBQUVqQkMsRUFBQUEsSUFBSSxDQUFDQyxHQUFELEVBQU07QUFDVDtBQUNBLFdBQU9BLEdBQVA7QUFDQTs7QUFMZ0I7O0FBUWxCLE1BQU1DLElBQU4sQ0FBVztBQUNWQyxFQUFBQSxXQUFXLENBQUNDLEtBQUQsRUFBT0MsSUFBUCxFQUFhO0FBQ3ZCLFNBQUtELEtBQUwsR0FBYUUsSUFBYjtBQUNBLFNBQUtELElBQUwsR0FBWUEsSUFBWjtBQUNBOztBQUpTOztlQU9JO0FBQUNOLEVBQUFBO0FBQUQsQyIsInNvdXJjZXNDb250ZW50IjpbIiBjbGFzcyBMaW5rZWRMaXN0IHtcblxuXHRwbGF5KHN0cikge1xuXHRcdC8vY29uc29sZS5sb2coc3RyKTtcblx0XHRyZXR1cm4gc3RyO1xuXHR9XG59IFxuXG5jbGFzcyBOb2RlIHtcblx0Y29uc3RydWN0b3IodmFsdWUsbmV4dCkge1xuXHRcdHRoaXMudmFsdWUgPSBkYXRhO1xuXHRcdHRoaXMubmV4dCA9IG5leHQ7XG5cdH1cbn1cblxuZXhwb3J0IGRlZmF1bHQge0xpbmtlZExpc3R9O1xuXG4iXX0=

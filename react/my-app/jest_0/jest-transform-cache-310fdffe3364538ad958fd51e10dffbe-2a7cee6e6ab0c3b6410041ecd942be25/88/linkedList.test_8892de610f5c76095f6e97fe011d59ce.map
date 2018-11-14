@@ -1,0 +1,1 @@
+{"version":3,"sources":["linkedList.test.js"],"names":["LinkedList","play","str"],"mappings":";;;;;;;AAAA,MAAMA,UAAN,CAAiB;AAEhBC,EAAAA,IAAI,CAACC,GAAD,EAAM;AACT;AACA,WAAOA,GAAP;AACA;;AALe;;eAQDF,U","sourcesContent":["class LinkedList {\n\n\tplay(str) {\n\t\t//console.log(str);\n\t\treturn str;\n\t}\n} \n\nexport default (LinkedList);\n"]}

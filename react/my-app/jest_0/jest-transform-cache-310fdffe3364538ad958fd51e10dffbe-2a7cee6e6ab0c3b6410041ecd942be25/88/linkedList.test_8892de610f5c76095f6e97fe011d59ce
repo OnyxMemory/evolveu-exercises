@@ -1,0 +1,19 @@
+2e2f6cec2838bd73ff66754c59dcfcdd
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+class LinkedList {
+  play(str) {
+    //console.log(str);
+    return str;
+  }
+
+}
+
+var _default = LinkedList;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpbmtlZExpc3QudGVzdC5qcyJdLCJuYW1lcyI6WyJMaW5rZWRMaXN0IiwicGxheSIsInN0ciJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLE1BQU1BLFVBQU4sQ0FBaUI7QUFFaEJDLEVBQUFBLElBQUksQ0FBQ0MsR0FBRCxFQUFNO0FBQ1Q7QUFDQSxXQUFPQSxHQUFQO0FBQ0E7O0FBTGU7O2VBUURGLFUiLCJzb3VyY2VzQ29udGVudCI6WyJjbGFzcyBMaW5rZWRMaXN0IHtcblxuXHRwbGF5KHN0cikge1xuXHRcdC8vY29uc29sZS5sb2coc3RyKTtcblx0XHRyZXR1cm4gc3RyO1xuXHR9XG59IFxuXG5leHBvcnQgZGVmYXVsdCAoTGlua2VkTGlzdCk7XG4iXX0=

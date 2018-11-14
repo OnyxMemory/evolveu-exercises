@@ -1,0 +1,13 @@
+7936215efeea39a668a30f1817c28e65
+"use strict";
+
+var _interopRequireDefault = require("/home/evolveu/code/Repositories/evolveu_exercises/react/my-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _sum = _interopRequireDefault(require("./sum"));
+
+//const sum = require('./sum');
+test('adds 1 + 2 to equal 3', () => {
+  console.log(_sum.default);
+  expect(_sum.default.sum(1, 2)).toBe(4);
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1bS50ZXN0LmpzIl0sIm5hbWVzIjpbInRlc3QiLCJjb25zb2xlIiwibG9nIiwiYWNhIiwiZXhwZWN0Iiwic3VtIiwidG9CZSJdLCJtYXBwaW5ncyI6Ijs7OztBQUVBOztBQUZDO0FBS0RBLElBQUksQ0FBQyx1QkFBRCxFQUEwQixNQUFNO0FBQ2xDQyxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsWUFBWjtBQUNBQyxFQUFBQSxNQUFNLENBQUNELGFBQUlFLEdBQUosQ0FBUSxDQUFSLEVBQVcsQ0FBWCxDQUFELENBQU4sQ0FBc0JDLElBQXRCLENBQTJCLENBQTNCO0FBQ0QsQ0FIRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiIC8vY29uc3Qgc3VtID0gcmVxdWlyZSgnLi9zdW0nKTtcblxuaW1wb3J0IGFjYSBmcm9tICcuL3N1bSc7XG5cblxudGVzdCgnYWRkcyAxICsgMiB0byBlcXVhbCAzJywgKCkgPT4ge1xuICBjb25zb2xlLmxvZyhhY2EpXG4gIGV4cGVjdChhY2Euc3VtKDEsIDIpKS50b0JlKDQpO1xufSk7Il19

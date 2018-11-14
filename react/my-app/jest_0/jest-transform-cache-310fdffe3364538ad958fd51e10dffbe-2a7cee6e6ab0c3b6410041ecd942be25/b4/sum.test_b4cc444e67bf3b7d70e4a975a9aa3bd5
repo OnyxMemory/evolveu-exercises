@@ -1,0 +1,20 @@
+2e32dc40cb09132e9c34367efda38a64
+"use strict";
+
+var _interopRequireDefault = require("/home/evolveu/code/Repositories/evolveu_exercises/react/my-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _sum = _interopRequireDefault(require("./sum"));
+
+//const sum = require('./sum');
+test('adds 1 + 2 to equal 3', () => {
+  console.log(_sum.default);
+  expect(_sum.default.sum(1, 2)).toBe(3);
+});
+test('adds 1+2+4 to equal 7', () => {
+  expect(_sum.default.add(1, 2)).toBe(7);
+});
+test('returns string', () => {
+  let tst = new _sum.default.LinkedList();
+  expect(tst.play('hello')).toBe('hello');
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1bS50ZXN0LmpzIl0sIm5hbWVzIjpbInRlc3QiLCJjb25zb2xlIiwibG9nIiwiYWNhIiwiZXhwZWN0Iiwic3VtIiwidG9CZSIsImFkZCIsInRzdCIsIkxpbmtlZExpc3QiLCJwbGF5Il0sIm1hcHBpbmdzIjoiOzs7O0FBRUE7O0FBRkM7QUFLREEsSUFBSSxDQUFDLHVCQUFELEVBQTBCLE1BQU07QUFDbENDLEVBQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZQyxZQUFaO0FBQ0FDLEVBQUFBLE1BQU0sQ0FBQ0QsYUFBSUUsR0FBSixDQUFRLENBQVIsRUFBVyxDQUFYLENBQUQsQ0FBTixDQUFzQkMsSUFBdEIsQ0FBMkIsQ0FBM0I7QUFDRCxDQUhHLENBQUo7QUFLQU4sSUFBSSxDQUFDLHVCQUFELEVBQTBCLE1BQU07QUFDbkNJLEVBQUFBLE1BQU0sQ0FBQ0QsYUFBSUksR0FBSixDQUFRLENBQVIsRUFBVSxDQUFWLENBQUQsQ0FBTixDQUFxQkQsSUFBckIsQ0FBMEIsQ0FBMUI7QUFDQSxDQUZHLENBQUo7QUFJQU4sSUFBSSxDQUFDLGdCQUFELEVBQW1CLE1BQU07QUFDNUIsTUFBSVEsR0FBRyxHQUFHLElBQUlMLGFBQUlNLFVBQVIsRUFBVjtBQUNBTCxFQUFBQSxNQUFNLENBQUNJLEdBQUcsQ0FBQ0UsSUFBSixDQUFTLE9BQVQsQ0FBRCxDQUFOLENBQTBCSixJQUExQixDQUErQixPQUEvQjtBQUNBLENBSEcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbIiAvL2NvbnN0IHN1bSA9IHJlcXVpcmUoJy4vc3VtJyk7XG5cbmltcG9ydCBhY2EgZnJvbSAnLi9zdW0nO1xuXG5cbnRlc3QoJ2FkZHMgMSArIDIgdG8gZXF1YWwgMycsICgpID0+IHtcbiAgY29uc29sZS5sb2coYWNhKVxuICBleHBlY3QoYWNhLnN1bSgxLCAyKSkudG9CZSgzKTtcbn0pO1xuXG50ZXN0KCdhZGRzIDErMis0IHRvIGVxdWFsIDcnLCAoKSA9PiB7XG5cdGV4cGVjdChhY2EuYWRkKDEsMikpLnRvQmUoNyk7XG59KTtcblxudGVzdCgncmV0dXJucyBzdHJpbmcnLCAoKSA9PiB7XG5cdGxldCB0c3QgPSBuZXcgYWNhLkxpbmtlZExpc3QoKTtcblx0ZXhwZWN0KHRzdC5wbGF5KCdoZWxsbycpKS50b0JlKCdoZWxsbycpO1xufSk7Il19

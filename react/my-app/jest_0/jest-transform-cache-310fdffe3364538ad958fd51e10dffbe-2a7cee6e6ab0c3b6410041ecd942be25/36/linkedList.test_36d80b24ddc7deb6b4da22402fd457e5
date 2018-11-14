@@ -1,0 +1,13 @@
+1c25b5e4fec4d35231f042932bab57dc
+"use strict";
+
+var _interopRequireDefault = require("/home/evolveu/code/Repositories/evolveu_exercises/react/my-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _linkedList = _interopRequireDefault(require("./linkedList"));
+
+test('returns string', () => {
+  let tst = new _linkedList.default.LinkedList();
+  expect(tst.play('hello')).toBe('hello');
+});
+test('show');
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpbmtlZExpc3QudGVzdC5qcyJdLCJuYW1lcyI6WyJ0ZXN0IiwidHN0IiwibGluayIsIkxpbmtlZExpc3QiLCJleHBlY3QiLCJwbGF5IiwidG9CZSJdLCJtYXBwaW5ncyI6Ijs7OztBQUNBOztBQUVBQSxJQUFJLENBQUMsZ0JBQUQsRUFBbUIsTUFBTTtBQUM1QixNQUFJQyxHQUFHLEdBQUcsSUFBSUMsb0JBQUtDLFVBQVQsRUFBVjtBQUNBQyxFQUFBQSxNQUFNLENBQUNILEdBQUcsQ0FBQ0ksSUFBSixDQUFTLE9BQVQsQ0FBRCxDQUFOLENBQTBCQyxJQUExQixDQUErQixPQUEvQjtBQUNBLENBSEcsQ0FBSjtBQUtBTixJQUFJLENBQUMsTUFBRCxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiXG5pbXBvcnQgbGluayBmcm9tICcuL2xpbmtlZExpc3QnO1xuXG50ZXN0KCdyZXR1cm5zIHN0cmluZycsICgpID0+IHtcblx0bGV0IHRzdCA9IG5ldyBsaW5rLkxpbmtlZExpc3QoKTtcblx0ZXhwZWN0KHRzdC5wbGF5KCdoZWxsbycpKS50b0JlKCdoZWxsbycpO1xufSk7XG5cbnRlc3QoJ3Nob3cnKSJdfQ==

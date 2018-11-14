@@ -1,0 +1,16 @@
+2855bfa2360e85b3303d1006f3e39cff
+"use strict";
+
+var _interopRequireDefault = require("/home/evolveu/code/Repositories/evolveu_exercises/react/my-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _sum = _interopRequireDefault(require("./sum"));
+
+//const sum = require('./sum');
+test('adds 1 + 2 to equal 3', () => {
+  console.log(_sum.default);
+  expect(_sum.default.sum(1, 2)).toBe(3);
+});
+test('adds 1+2+3 to equal6', () => {
+  expect(_sum.default.add(1, 2)).toBe(6);
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1bS50ZXN0LmpzIl0sIm5hbWVzIjpbInRlc3QiLCJjb25zb2xlIiwibG9nIiwiYWNhIiwiZXhwZWN0Iiwic3VtIiwidG9CZSIsImFkZCJdLCJtYXBwaW5ncyI6Ijs7OztBQUVBOztBQUZDO0FBS0RBLElBQUksQ0FBQyx1QkFBRCxFQUEwQixNQUFNO0FBQ2xDQyxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWUMsWUFBWjtBQUNBQyxFQUFBQSxNQUFNLENBQUNELGFBQUlFLEdBQUosQ0FBUSxDQUFSLEVBQVcsQ0FBWCxDQUFELENBQU4sQ0FBc0JDLElBQXRCLENBQTJCLENBQTNCO0FBQ0QsQ0FIRyxDQUFKO0FBS0FOLElBQUksQ0FBQyxzQkFBRCxFQUF5QixNQUFNO0FBQ2xDSSxFQUFBQSxNQUFNLENBQUNELGFBQUlJLEdBQUosQ0FBUSxDQUFSLEVBQVUsQ0FBVixDQUFELENBQU4sQ0FBcUJELElBQXJCLENBQTBCLENBQTFCO0FBQ0EsQ0FGRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiIC8vY29uc3Qgc3VtID0gcmVxdWlyZSgnLi9zdW0nKTtcblxuaW1wb3J0IGFjYSBmcm9tICcuL3N1bSc7XG5cblxudGVzdCgnYWRkcyAxICsgMiB0byBlcXVhbCAzJywgKCkgPT4ge1xuICBjb25zb2xlLmxvZyhhY2EpXG4gIGV4cGVjdChhY2Euc3VtKDEsIDIpKS50b0JlKDMpO1xufSk7XG5cbnRlc3QoJ2FkZHMgMSsyKzMgdG8gZXF1YWw2JywgKCkgPT4ge1xuXHRleHBlY3QoYWNhLmFkZCgxLDIpKS50b0JlKDYpO1xufSkiXX0=

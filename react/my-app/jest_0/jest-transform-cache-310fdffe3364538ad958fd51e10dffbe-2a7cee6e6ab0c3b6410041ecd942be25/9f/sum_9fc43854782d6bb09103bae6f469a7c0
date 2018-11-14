@@ -1,0 +1,18 @@
+3d7f810d604888a96088748b50046448
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function sum(a, b) {
+  return a + b;
+} //module.exports = sum; 
+
+
+var _default = {
+  sum
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1bS5qcyJdLCJuYW1lcyI6WyJzdW0iLCJhIiwiYiJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLFNBQVNBLEdBQVQsQ0FBYUMsQ0FBYixFQUFnQkMsQ0FBaEIsRUFBbUI7QUFDakIsU0FBT0QsQ0FBQyxHQUFHQyxDQUFYO0FBQ0QsQyxDQUNEOzs7ZUFFZTtBQUFDRixFQUFBQTtBQUFELEMiLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBzdW0oYSwgYikge1xuICByZXR1cm4gYSArIGI7XG59XG4vL21vZHVsZS5leHBvcnRzID0gc3VtOyBcblxuZXhwb3J0IGRlZmF1bHQge3N1bX07Il19

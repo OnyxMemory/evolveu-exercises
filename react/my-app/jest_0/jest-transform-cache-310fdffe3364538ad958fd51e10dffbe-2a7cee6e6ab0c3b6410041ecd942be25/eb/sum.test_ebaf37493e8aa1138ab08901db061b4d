@@ -1,0 +1,20 @@
+678efc325af388d8d64533cefef5be72
+"use strict";
+
+var _interopRequireDefault = require("/home/evolveu/code/Repositories/evolveu_exercises/react/my-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _sum = _interopRequireDefault(require("./sum"));
+
+//const sum = require('./sum');
+test('adds 1 + 2 to equal 3', () => {
+  console.log(_sum.default);
+  expect(_sum.default.sum(1, 2)).toBe(3);
+});
+test('adds 1+2+4 to equal 7', () => {
+  expect(_sum.default.add(1, 2)).toBe(7);
+});
+test('returns string', () => {
+  let tst = _sum.default.LinkedList;
+  expect(tst.play('hello')).toBe('hello');
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1bS50ZXN0LmpzIl0sIm5hbWVzIjpbInRlc3QiLCJjb25zb2xlIiwibG9nIiwiYWNhIiwiZXhwZWN0Iiwic3VtIiwidG9CZSIsImFkZCIsInRzdCIsIkxpbmtlZExpc3QiLCJwbGF5Il0sIm1hcHBpbmdzIjoiOzs7O0FBRUE7O0FBRkM7QUFLREEsSUFBSSxDQUFDLHVCQUFELEVBQTBCLE1BQU07QUFDbENDLEVBQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZQyxZQUFaO0FBQ0FDLEVBQUFBLE1BQU0sQ0FBQ0QsYUFBSUUsR0FBSixDQUFRLENBQVIsRUFBVyxDQUFYLENBQUQsQ0FBTixDQUFzQkMsSUFBdEIsQ0FBMkIsQ0FBM0I7QUFDRCxDQUhHLENBQUo7QUFLQU4sSUFBSSxDQUFDLHVCQUFELEVBQTBCLE1BQU07QUFDbkNJLEVBQUFBLE1BQU0sQ0FBQ0QsYUFBSUksR0FBSixDQUFRLENBQVIsRUFBVSxDQUFWLENBQUQsQ0FBTixDQUFxQkQsSUFBckIsQ0FBMEIsQ0FBMUI7QUFDQSxDQUZHLENBQUo7QUFJQU4sSUFBSSxDQUFDLGdCQUFELEVBQW1CLE1BQU07QUFDNUIsTUFBSVEsR0FBRyxHQUFHTCxhQUFJTSxVQUFkO0FBQ0FMLEVBQUFBLE1BQU0sQ0FBQ0ksR0FBRyxDQUFDRSxJQUFKLENBQVMsT0FBVCxDQUFELENBQU4sQ0FBMEJKLElBQTFCLENBQStCLE9BQS9CO0FBQ0EsQ0FIRyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiIC8vY29uc3Qgc3VtID0gcmVxdWlyZSgnLi9zdW0nKTtcblxuaW1wb3J0IGFjYSBmcm9tICcuL3N1bSc7XG5cblxudGVzdCgnYWRkcyAxICsgMiB0byBlcXVhbCAzJywgKCkgPT4ge1xuICBjb25zb2xlLmxvZyhhY2EpXG4gIGV4cGVjdChhY2Euc3VtKDEsIDIpKS50b0JlKDMpO1xufSk7XG5cbnRlc3QoJ2FkZHMgMSsyKzQgdG8gZXF1YWwgNycsICgpID0+IHtcblx0ZXhwZWN0KGFjYS5hZGQoMSwyKSkudG9CZSg3KTtcbn0pO1xuXG50ZXN0KCdyZXR1cm5zIHN0cmluZycsICgpID0+IHtcblx0bGV0IHRzdCA9IGFjYS5MaW5rZWRMaXN0O1xuXHRleHBlY3QodHN0LnBsYXkoJ2hlbGxvJykpLnRvQmUoJ2hlbGxvJyk7XG59KTsiXX0=

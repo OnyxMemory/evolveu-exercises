@@ -1,0 +1,23 @@
+c3ee3655b326eecf8042f598f97005c0
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function sum(a, b) {
+  return a + b;
+} //module.exports = sum; 
+
+
+var _default = {
+  sum,
+  add
+};
+exports.default = _default;
+
+function add(a, b) {
+  return a + b + 4;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN1bS5qcyJdLCJuYW1lcyI6WyJzdW0iLCJhIiwiYiIsImFkZCJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLFNBQVNBLEdBQVQsQ0FBYUMsQ0FBYixFQUFnQkMsQ0FBaEIsRUFBbUI7QUFDakIsU0FBT0QsQ0FBQyxHQUFHQyxDQUFYO0FBQ0QsQyxDQUNEOzs7ZUFFZTtBQUFDRixFQUFBQSxHQUFEO0FBQU1HLEVBQUFBO0FBQU4sQzs7O0FBRWYsU0FBU0EsR0FBVCxDQUFhRixDQUFiLEVBQWVDLENBQWYsRUFBa0I7QUFDakIsU0FBT0QsQ0FBQyxHQUFHQyxDQUFKLEdBQVEsQ0FBZjtBQUNBIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gc3VtKGEsIGIpIHtcbiAgcmV0dXJuIGEgKyBiO1xufVxuLy9tb2R1bGUuZXhwb3J0cyA9IHN1bTsgXG5cbmV4cG9ydCBkZWZhdWx0IHtzdW0sIGFkZH07XG5cbmZ1bmN0aW9uIGFkZChhLGIpIHtcblx0cmV0dXJuIGEgKyBiICsgNFxufSJdfQ==

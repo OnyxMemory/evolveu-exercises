@@ -20,8 +20,8 @@
 		return retString;
 	}
 	insert(value) {
-		let node = new Node(value,null);
-		if(this.current.next){
+		let node = new Node(value,null);	///1,2,3		
+		if(this.current.next){				
 			let temp = this.current.next;
 			node.next = temp;
 			this.current.next = node;

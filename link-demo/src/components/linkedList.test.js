@@ -1,5 +1,5 @@
 
-import link from './linkedList';
+import link from '../linkedList';
 
 test('returns string', () => {
 	let tst = new link.LinkedList();

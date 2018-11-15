@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ll from './linkedList';
+import ll from './components/linkedList';
+import LinkedListComp from './components/LinkedListComp';
 
 class App extends Component {
   render() {
@@ -20,17 +21,43 @@ class App extends Component {
           >
             Learn React
           </a>
-          <LinkList />
         </header>
+        <LinkList />
+        <h1>This is my new beginning</h1>
+        <LinkedListComp/>
       </div>
     );
   }
 }
 
 class LinkList extends Component {
+  constructor() {
+    super();
+    this.state = {
+      x : 0,
+      linked: new ll.LinkedList("first")
+    }
+    //this.linked = new ll.LinkedList(this.state.x);
+    this.handleChange = this.handleChange.bind(this);
+    this.addDiv = this.addDiv.bind(this);
+  }
+  
+  addDiv() {
+    //this.setState({linked: new ll.LinkedList(this.state.x)});
+    this.state.linked.add(this.state.x);
+    //this.linked.add(this.state.x);
+    console.log(this.state.linked.show());
+  }
+  handleChange(event) {
+    this.setState({x: event.target.value});
+  }
+
   render() {
     return (
-      <button id='btn'>Add Node</button>
+      <div>
+        <input value={this.state.x} onChange={this.handleChange}></input>
+        <button id='btn' onClick={this.addDiv}>Add Node</button>
+      </div>
     );
   }
 }

@@ -61,3 +61,63 @@ console.log(i);
 
 /////////////////////////////////////////////////
 //Lecture: Blocks and IIFE
+
+//ES6
+
+{
+    const a = 1;
+    let b = 2;
+    var c = 3;
+}
+
+console.log(c);
+
+//ES5
+
+(function (){
+    var c = 3;
+})();
+
+//console.log(c);
+
+
+//Lecture:Strings
+
+let firstName = "John";
+let lastName = 'Smith';
+
+const yearOfBirth = 1990;
+
+function calcAge(year) {
+    return 2016 - year;
+}
+
+console.log('This is ' + firstName + ' ' + lastName)
+
+console.log(`This is ${firstName} ${lastName}`)
+
+const n = `${firstName} ${lastName}`;
+console.log(n.startsWith('J'));
+console.log(n.endsWith('th'));
+console.log(n.includes(' '));
+
+console.log(`${firstName} `.repeat(5));
+
+
+//////////////////////////////////////////
+//Lecture : Arrow functions
+
+const years = [1990, 1965, 1982, 1937];
+
+var ages5 = years.map(function(el){
+    return 2016 - el
+});
+
+
+//es6
+
+let ages6 = years.map(el => 2016 - el);
+console.log(ages6);
+
+ages6 = years.map((el, index) => `Age element ${index + 1}: ${2016 - el}.`);
+console.log(ages6);

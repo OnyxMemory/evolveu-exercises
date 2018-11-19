@@ -52,7 +52,8 @@ class LinkedListComp extends Component {
     first = () => {
         if(this.ll){
             this.ll.resetCurrent();
-            this.updateCurrent();
+            //this.updateCurrent();
+            this.show();
         } else {
             
         }
@@ -61,7 +62,8 @@ class LinkedListComp extends Component {
     next = () => {
         if(this.ll){
             this.ll.moveForward();
-            this.updateCurrent();
+            //this.updateCurrent();
+            this.show();
         } else {
             alert('No Linked List Exists!');
         }
@@ -70,14 +72,16 @@ class LinkedListComp extends Component {
     prev = () => {
         if(this.ll){
             this.ll.moveBack();
-            this.updateCurrent();
+            //this.updateCurrent();
+            this.show();
         }
     }
     
     last = () => {
         if(this.ll){
             this.ll.tailCurrent();
-            this.updateCurrent();
+            //this.updateCurrent();
+            this.show();
         }
     }
 

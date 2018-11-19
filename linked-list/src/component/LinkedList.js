@@ -18,7 +18,7 @@ class LinkedList {
     show() {
         let tmpCur = this.current;
         let retString = ''
-        if (this.current==this.head){
+        if (this.current===this.head){
             retString = `[${this.head.subject} ${this.head.amount}]`
         } else {
             retString = `${this.head.subject} ${this.head.amount}`
@@ -26,7 +26,7 @@ class LinkedList {
         this.resetCurrent();
         while(this.current.forwardNode){
             this.moveForward();
-            if(this.current == tmpCur){
+            if(this.current === tmpCur){
                 retString +=`, [${this.current.subject} ${this.current.amount}]`;
             } else {
                 retString +=`, ${this.current.subject} ${this.current.amount}`;
@@ -47,6 +47,7 @@ class LinkedList {
     insert(value, amount) {
 		let node = new Node(value,amount);	///1,2,3				
         node.forwardNode = this.current.forwardNode;
+        node.forwardNode.backNode= node;
         node.backNode = this.current;
         if(!this.current.forwardNode) {
             this.tail=node;
@@ -57,19 +58,17 @@ class LinkedList {
     }
 
     delete() {
-        if(this.current.backNode && this.current.forwardNode){
-            let tmpBack = this.current.backNode;
-            let tmpForward = this.current.forwardNode;
+        let tmpBack = this.current.backNode;
+        let tmpForward = this.current.forwardNode;
+        if(tmpBack && tmpForward){
             tmpBack.forwardNode = tmpForward;
             tmpForward.backNode = tmpBack;
             this.current = tmpBack;
-        } else if(this.current.backNode){
-            let tmpBack = this.current.backNode;
+        } else if(tmpBack){
             tmpBack.forwardNode = null;
             this.tail = tmpBack;
             this.current = this.tail;
-        } else if(this.current.forwardNode){
-            let tmpForward = this.current.forwardNode;
+        } else if(tmpForward){
             tmpForward.backNode = null;
             this.head = tmpForward;
             this.current = this.head;

@@ -4,11 +4,16 @@ import './App.css';
 import LinkedListComp from './component/LinkedListComp';
 
 class App extends Component {
+
+  onPassedFunction = () => {
+    console.log("We are in the App function");
+  }
+
   render() {
     return (
       <div className="App">
       <h1>Linked List</h1>
-      <LinkedListComp/>
+      <LinkedListComp name='Top' func={this.onPassedFunction}/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

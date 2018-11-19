@@ -8,19 +8,30 @@ class LinkedListComp extends Component {
             display: 'Display text'
         }
         this.ll = null;
-        this.addll = this.addll.bind(this);
-        this.newll = this.newll.bind(this);
-        this.show = this.show.bind(this);
+        // this.addll = this.addll.bind(this);
+        // this.newll = this.newll.bind(this);
+        // this.show = this.show.bind(this);
+        // this.next = this.next.bind(this);
+        // this.first = this.first.bind(this);
 
     }
-    newll() {
+
+    updateCurrent = () => {
+        this.setState({display: this.ll.showCurrent()});
+    }
+
+    inputGet = () => {
         let sub = document.getElementById('subin').value;
         let amt = document.getElementById('amtin').value;
-
-        this.ll = new LinkedList(sub,amt);
+        return [sub,amt];
     }
 
-    show() {
+    newll = () => {
+        this.ll = new LinkedList(...this.inputGet());
+        this.show();
+    }
+
+    show = () => {
         if(this.ll){
             this.setState({display: this.ll.show()});
         }
@@ -29,14 +40,60 @@ class LinkedListComp extends Component {
         }
     }
 
-    addll() {
+    addll = () => {
        if(this.ll){
-            let sub = document.getElementById('subin').value;
-            let amt = document.getElementById('amtin').value;
-            this.ll.add(sub,amt);
+            this.ll.add(...this.inputGet());
+            this.show();
        } else {
-           alert('No Linked List Exists!');
+           
        }
+    }
+
+    first = () => {
+        if(this.ll){
+            this.ll.resetCurrent();
+            this.updateCurrent();
+        } else {
+            
+        }
+    }
+
+    next = () => {
+        if(this.ll){
+            this.ll.moveForward();
+            this.updateCurrent();
+        } else {
+            alert('No Linked List Exists!');
+        }
+    }
+
+    prev = () => {
+        if(this.ll){
+            this.ll.moveBack();
+            this.updateCurrent();
+        }
+    }
+    
+    last = () => {
+        if(this.ll){
+            this.ll.tailCurrent();
+            this.updateCurrent();
+        }
+    }
+
+    insert = () => {
+        if(this.ll){
+            this.ll.insert(...this.inputGet());
+            this.show();
+        }
+
+    }
+
+    delete = () => {
+        if(this.ll){
+            this.ll.delete();
+            this.show();
+        }
     }
 
     render() {
@@ -44,10 +101,17 @@ class LinkedListComp extends Component {
             <div>
                 <h2>Hello World</h2>
                 <div>
-                    <button onClick={this.newll}>New Linked List</button>
-                    <button onClick={this.addll}>Add Node</button>
+                    <button onClick={this.newll}>New</button>
+                    <button onClick={this.addll}>Add</button>
+                    <button onClick={this.insert}>Insert</button>
+                    <button onClick={this.delete}>Delete</button>
                     <br/>
-                    <input id='subin'></input><input id='amtin'></input>
+                    Subject: <input id='subin'></input> Amount: <input id='amtin'></input>
+                    <br/>
+                    <button onClick={this.first}>First</button>
+                    <button onClick={this.next}>Next</button>
+                    <button onClick={this.prev}>Prev</button>
+                    <button onClick={this.last}>Last</button>
                     <br/>
                     <button onClick={this.show}>Show All</button>
                     <div id='display'>{this.state.display}</div>
